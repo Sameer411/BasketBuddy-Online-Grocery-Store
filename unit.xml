@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 113.0.5672.126 (Linux x86_64)" package="unit" timestamp="2024-07-24T22:24:45" id="0" hostname="ip-10-0-143-192.ap-south-1.compute.internal" tests="15" errors="0" failures="0" time="0.177">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/113.0.5672.126 Safari/537.36"/>
+  </properties>
+  <testcase name="VegetablesComponent should create" time="0.018" classname=".VegetablesComponent"/>
+  <testcase name="SnacksComponent should create" time="0.009" classname=".SnacksComponent"/>
+  <testcase name="FruitsComponent should create" time="0.01" classname=".FruitsComponent"/>
+  <testcase name="NavBarComponent should create" time="0.019" classname=".NavBarComponent"/>
+  <testcase name="DairyComponent should create" time="0.012" classname=".DairyComponent"/>
+  <testcase name="TopRecommendedComponent should create" time="0.015" classname=".TopRecommendedComponent"/>
+  <testcase name="ProductService should be created" time="0.002" classname=".ProductService"/>
+  <testcase name="HomeComponent should create" time="0.018" classname=".HomeComponent"/>
+  <testcase name="CartComponent should create" time="0.017" classname=".CartComponent"/>
+  <testcase name="CartService should be created" time="0.003" classname=".CartService"/>
+  <testcase name="CheeseComponent should create" time="0.008" classname=".CheeseComponent"/>
+  <testcase name="AppComponent should create the app" time="0.006" classname=".AppComponent"/>
+  <testcase name="AppComponent should have as title 'BasketBuddy'" time="0.003" classname=".AppComponent"/>
+  <testcase name="CannedGoodsComponent should create" time="0.017" classname=".CannedGoodsComponent"/>
+  <testcase name="BreadComponent should create" time="0.02" classname=".BreadComponent"/>
+  <system-out>
+    <![CDATA[Chrome Headless 113.0.5672.126 (Linux x86_64) ERROR: 'NG0304: 'app-nav-bar' is not a known element:
+1. If 'app-nav-bar' is an Angular component, then verify that it is part of this module.
+2. If 'app-nav-bar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 113.0.5672.126 (Linux x86_64) ERROR: 'NG0304: 'app-nav-bar' is not a known element:
+1. If 'app-nav-bar' is an Angular component, then verify that it is part of this module.
+2. If 'app-nav-bar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

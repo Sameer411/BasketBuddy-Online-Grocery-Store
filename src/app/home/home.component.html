@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="welcome-message">
+    <h1>Welcome to Our Online Grocery Store!</h1>
+    <p>Your one-stop shop for all your grocery needs. Browse our wide range of products and enjoy the best quality and prices.</p>
+    <p>Happy shopping!</p>
+  </div>
+  <div class="row">
+    <div *ngFor="let product of products" class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ product.name }}</h5>
+          <p class="card-text">{{ product.description }}</p>
+          <p class="card-text"><strong>${{ product.price.toFixed(2) }}</strong></p>
+          <button class="btn btn-primary" (click)="addToCart(product)">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
